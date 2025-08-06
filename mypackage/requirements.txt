@@ -1,0 +1,6 @@
+# Core crypto libraries
+cryptography>=42.0.0          # For Fernet (symmetric encryption)
+pycryptodome>=3.20.0          # For AES, DES, Blowfish, ChaCha20, RSA, ECC, ElGamal
+
+# Utilities
+urllib3>=2.2.1                # For URL encoding/decoding (already part of stdlib urllib, but safer with full lib)
